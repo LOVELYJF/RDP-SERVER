@@ -1,0 +1,1030 @@
+2019-09-27 08:43:49 DEBUG [background-preinit] - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2019-09-27 08:43:49  INFO [background-preinit] - HV000001: Hibernate Validator 6.0.10.Final
+2019-09-27 08:43:49 DEBUG [background-preinit] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-09-27 08:43:49 DEBUG [background-preinit] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-09-27 08:43:49 DEBUG [background-preinit] - Trying to load META-INF/validation.xml via TCCL
+2019-09-27 08:43:49 DEBUG [background-preinit] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-09-27 08:43:49 DEBUG [background-preinit] - No META-INF/validation.xml found. Using annotation based configuration only.
+2019-09-27 08:43:50 DEBUG [background-preinit] - Loaded expression factory via original TCCL
+2019-09-27 08:43:50 DEBUG [background-preinit] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-09-27 08:43:50 DEBUG [background-preinit] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-09-27 08:43:50 DEBUG [background-preinit] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-09-27 08:43:50 DEBUG [background-preinit] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-09-27 08:43:50 DEBUG [background-preinit] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-09-27 08:43:50  INFO [main] - Starting AdminApplication on TEST-68MGSIIRSF with PID 9684 (started by Person in E:\自动化报表\RDP-SOURCE-2.3.11)
+2019-09-27 08:43:50 DEBUG [main] - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2019-09-27 08:43:50  INFO [main] - The following profiles are active: mysql
+2019-09-27 08:43:53 DEBUG [main] - Identified candidate component class: file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\io\report\modules\material\dao\MaterialDao.class]
+2019-09-27 08:43:53 DEBUG [main] - Ignored because not a concrete top-level class: file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\io\report\modules\rdp\dao\ReportDao.class]
+2019-09-27 08:43:53 DEBUG [main] - Identified candidate component class: file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\io\report\modules\ser\dao\DataSetDao.class]
+2019-09-27 08:43:53 DEBUG [main] - Identified candidate component class: file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\io\report\modules\ser\dao\DataSourceDao.class]
+2019-09-27 08:43:53 DEBUG [main] - Identified candidate component class: file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\io\report\modules\ser\dao\DbTypeDao.class]
+2019-09-27 08:43:53 DEBUG [main] - Identified candidate component class: file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\io\report\modules\ser\dao\DsShowcolDao.class]
+2019-09-27 08:43:53 DEBUG [main] - Identified candidate component class: file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\io\report\modules\ser\dao\DtFilterDao.class]
+2019-09-27 08:43:53 DEBUG [main] - Identified candidate component class: file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\io\report\modules\ser\dao\DtParamDao.class]
+2019-09-27 08:43:53 DEBUG [main] - Identified candidate component class: file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\io\report\modules\ser\dao\DtTableDao.class]
+2019-09-27 08:43:53 DEBUG [main] - Identified candidate component class: file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\io\report\modules\ser\dao\DtTableRsConditionDao.class]
+2019-09-27 08:43:53 DEBUG [main] - Identified candidate component class: file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\io\report\modules\ser\dao\DtTableRsDao.class]
+2019-09-27 08:43:53 DEBUG [main] - Identified candidate component class: file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\io\report\modules\sys\dao\SysAreaDao.class]
+2019-09-27 08:43:53 DEBUG [main] - Identified candidate component class: file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\io\report\modules\sys\dao\SysConfigDao.class]
+2019-09-27 08:43:53 DEBUG [main] - Identified candidate component class: file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\io\report\modules\sys\dao\SysDeptDao.class]
+2019-09-27 08:43:53 DEBUG [main] - Identified candidate component class: file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\io\report\modules\sys\dao\SysDictDao.class]
+2019-09-27 08:43:53 DEBUG [main] - Identified candidate component class: file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\io\report\modules\sys\dao\SysLogDao.class]
+2019-09-27 08:43:53 DEBUG [main] - Identified candidate component class: file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\io\report\modules\sys\dao\SysMenuDao.class]
+2019-09-27 08:43:53 DEBUG [main] - Identified candidate component class: file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\io\report\modules\sys\dao\SysRoleDao.class]
+2019-09-27 08:43:53 DEBUG [main] - Identified candidate component class: file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\io\report\modules\sys\dao\SysRoleDeptDao.class]
+2019-09-27 08:43:53 DEBUG [main] - Identified candidate component class: file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\io\report\modules\sys\dao\SysRoleMenuDao.class]
+2019-09-27 08:43:53 DEBUG [main] - Identified candidate component class: file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\io\report\modules\sys\dao\SysUserDao.class]
+2019-09-27 08:43:53 DEBUG [main] - Identified candidate component class: file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\io\report\modules\sys\dao\SysUserRoleDao.class]
+2019-09-27 08:43:53 DEBUG [main] - Identified candidate component class: file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\io\report\modules\sys\dao\SysWayDao.class]
+2019-09-27 08:43:53 DEBUG [main] - Ignored because not a concrete top-level class: URL [jar:file:/D:/m3/repository/io/report/report-common/1.0.6/report-common-1.0.6.jar!/io/report/modules/rdp/dao/ReportDao.class]
+2019-09-27 08:43:53 DEBUG [main] - Creating MapperFactoryBean with name 'materialDao' and 'io.report.modules.material.dao.MaterialDao' mapperInterface
+2019-09-27 08:43:53 DEBUG [main] - Enabling autowire by type for MapperFactoryBean with name 'materialDao'.
+2019-09-27 08:43:53 DEBUG [main] - Creating MapperFactoryBean with name 'dataSetDao' and 'io.report.modules.ser.dao.DataSetDao' mapperInterface
+2019-09-27 08:43:53 DEBUG [main] - Enabling autowire by type for MapperFactoryBean with name 'dataSetDao'.
+2019-09-27 08:43:53 DEBUG [main] - Creating MapperFactoryBean with name 'dataSourceDao' and 'io.report.modules.ser.dao.DataSourceDao' mapperInterface
+2019-09-27 08:43:53 DEBUG [main] - Enabling autowire by type for MapperFactoryBean with name 'dataSourceDao'.
+2019-09-27 08:43:53 DEBUG [main] - Creating MapperFactoryBean with name 'dbTypeDao' and 'io.report.modules.ser.dao.DbTypeDao' mapperInterface
+2019-09-27 08:43:53 DEBUG [main] - Enabling autowire by type for MapperFactoryBean with name 'dbTypeDao'.
+2019-09-27 08:43:53 DEBUG [main] - Creating MapperFactoryBean with name 'dsShowcolDao' and 'io.report.modules.ser.dao.DsShowcolDao' mapperInterface
+2019-09-27 08:43:53 DEBUG [main] - Enabling autowire by type for MapperFactoryBean with name 'dsShowcolDao'.
+2019-09-27 08:43:53 DEBUG [main] - Creating MapperFactoryBean with name 'dtFilterDao' and 'io.report.modules.ser.dao.DtFilterDao' mapperInterface
+2019-09-27 08:43:53 DEBUG [main] - Enabling autowire by type for MapperFactoryBean with name 'dtFilterDao'.
+2019-09-27 08:43:53 DEBUG [main] - Creating MapperFactoryBean with name 'dtParamDao' and 'io.report.modules.ser.dao.DtParamDao' mapperInterface
+2019-09-27 08:43:53 DEBUG [main] - Enabling autowire by type for MapperFactoryBean with name 'dtParamDao'.
+2019-09-27 08:43:53 DEBUG [main] - Creating MapperFactoryBean with name 'dtTableDao' and 'io.report.modules.ser.dao.DtTableDao' mapperInterface
+2019-09-27 08:43:53 DEBUG [main] - Enabling autowire by type for MapperFactoryBean with name 'dtTableDao'.
+2019-09-27 08:43:53 DEBUG [main] - Creating MapperFactoryBean with name 'dtTableRsConditionDao' and 'io.report.modules.ser.dao.DtTableRsConditionDao' mapperInterface
+2019-09-27 08:43:53 DEBUG [main] - Enabling autowire by type for MapperFactoryBean with name 'dtTableRsConditionDao'.
+2019-09-27 08:43:53 DEBUG [main] - Creating MapperFactoryBean with name 'dtTableRsDao' and 'io.report.modules.ser.dao.DtTableRsDao' mapperInterface
+2019-09-27 08:43:53 DEBUG [main] - Enabling autowire by type for MapperFactoryBean with name 'dtTableRsDao'.
+2019-09-27 08:43:53 DEBUG [main] - Creating MapperFactoryBean with name 'sysAreaDao' and 'io.report.modules.sys.dao.SysAreaDao' mapperInterface
+2019-09-27 08:43:53 DEBUG [main] - Enabling autowire by type for MapperFactoryBean with name 'sysAreaDao'.
+2019-09-27 08:43:53 DEBUG [main] - Creating MapperFactoryBean with name 'sysConfigDao' and 'io.report.modules.sys.dao.SysConfigDao' mapperInterface
+2019-09-27 08:43:53 DEBUG [main] - Enabling autowire by type for MapperFactoryBean with name 'sysConfigDao'.
+2019-09-27 08:43:53 DEBUG [main] - Creating MapperFactoryBean with name 'sysDeptDao' and 'io.report.modules.sys.dao.SysDeptDao' mapperInterface
+2019-09-27 08:43:53 DEBUG [main] - Enabling autowire by type for MapperFactoryBean with name 'sysDeptDao'.
+2019-09-27 08:43:53 DEBUG [main] - Creating MapperFactoryBean with name 'sysDictDao' and 'io.report.modules.sys.dao.SysDictDao' mapperInterface
+2019-09-27 08:43:53 DEBUG [main] - Enabling autowire by type for MapperFactoryBean with name 'sysDictDao'.
+2019-09-27 08:43:53 DEBUG [main] - Creating MapperFactoryBean with name 'sysLogDao' and 'io.report.modules.sys.dao.SysLogDao' mapperInterface
+2019-09-27 08:43:53 DEBUG [main] - Enabling autowire by type for MapperFactoryBean with name 'sysLogDao'.
+2019-09-27 08:43:53 DEBUG [main] - Creating MapperFactoryBean with name 'sysMenuDao' and 'io.report.modules.sys.dao.SysMenuDao' mapperInterface
+2019-09-27 08:43:53 DEBUG [main] - Enabling autowire by type for MapperFactoryBean with name 'sysMenuDao'.
+2019-09-27 08:43:53 DEBUG [main] - Creating MapperFactoryBean with name 'sysRoleDao' and 'io.report.modules.sys.dao.SysRoleDao' mapperInterface
+2019-09-27 08:43:53 DEBUG [main] - Enabling autowire by type for MapperFactoryBean with name 'sysRoleDao'.
+2019-09-27 08:43:53 DEBUG [main] - Creating MapperFactoryBean with name 'sysRoleDeptDao' and 'io.report.modules.sys.dao.SysRoleDeptDao' mapperInterface
+2019-09-27 08:43:53 DEBUG [main] - Enabling autowire by type for MapperFactoryBean with name 'sysRoleDeptDao'.
+2019-09-27 08:43:53 DEBUG [main] - Creating MapperFactoryBean with name 'sysRoleMenuDao' and 'io.report.modules.sys.dao.SysRoleMenuDao' mapperInterface
+2019-09-27 08:43:53 DEBUG [main] - Enabling autowire by type for MapperFactoryBean with name 'sysRoleMenuDao'.
+2019-09-27 08:43:53 DEBUG [main] - Creating MapperFactoryBean with name 'sysUserDao' and 'io.report.modules.sys.dao.SysUserDao' mapperInterface
+2019-09-27 08:43:53 DEBUG [main] - Enabling autowire by type for MapperFactoryBean with name 'sysUserDao'.
+2019-09-27 08:43:53 DEBUG [main] - Creating MapperFactoryBean with name 'sysUserRoleDao' and 'io.report.modules.sys.dao.SysUserRoleDao' mapperInterface
+2019-09-27 08:43:53 DEBUG [main] - Enabling autowire by type for MapperFactoryBean with name 'sysUserRoleDao'.
+2019-09-27 08:43:53 DEBUG [main] - Creating MapperFactoryBean with name 'sysWayDao' and 'io.report.modules.sys.dao.SysWayDao' mapperInterface
+2019-09-27 08:43:53 DEBUG [main] - Enabling autowire by type for MapperFactoryBean with name 'sysWayDao'.
+2019-09-27 08:43:55 DEBUG [main] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-09-27 08:43:56 DEBUG [main] - DeBug: MyBatis Plus Global configuration Initializing !
+2019-09-27 08:43:56 DEBUG [main] - addMappedStatement: com.baomidou.mybatisplus.mapper.SqlRunner.SelectList
+2019-09-27 08:43:56 DEBUG [main] - addMappedStatement: com.baomidou.mybatisplus.mapper.SqlRunner.SelectObjs
+2019-09-27 08:43:56 DEBUG [main] - addMappedStatement: com.baomidou.mybatisplus.mapper.SqlRunner.Insert
+2019-09-27 08:43:56 DEBUG [main] - addMappedStatement: com.baomidou.mybatisplus.mapper.SqlRunner.Update
+2019-09-27 08:43:56 DEBUG [main] - addMappedStatement: com.baomidou.mybatisplus.mapper.SqlRunner.Delete
+2019-09-27 08:43:56 DEBUG [main] - addMappedStatement: com.baomidou.mybatisplus.mapper.SqlRunner.Count
+2019-09-27 08:43:56 DEBUG [main] - Mybatis-plus init success.
+2019-09-27 08:43:56  INFO [main] - 正在加载数据源，如果卡在这个界面，可能是数据源配置不正确，请检查application-prod.yml文件中的配置
+2019-09-27 08:43:56 DEBUG [main] - Using VFS adapter com.baomidou.mybatisplus.spring.boot.starter.SpringBootVFS
+2019-09-27 08:43:56 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.xml.FillReportFieldEntity matches criteria [is assignable to Object]
+2019-09-27 08:43:56 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.json.RowCategory matches criteria [is assignable to Object]
+2019-09-27 08:43:56 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.json.MergeCells matches criteria [is assignable to Object]
+2019-09-27 08:43:56 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.xml.FillReportEntity matches criteria [is assignable to Object]
+2019-09-27 08:43:56 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.json.Row matches criteria [is assignable to Object]
+2019-09-27 08:43:56 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.json.JsonReportEntity matches criteria [is assignable to Object]
+2019-09-27 08:43:56 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.json.DataParms matches criteria [is assignable to Object]
+2019-09-27 08:43:56 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.xml.RdpDataSetEntity matches criteria [is assignable to Object]
+2019-09-27 08:43:56 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.json.Symbol matches criteria [is assignable to Object]
+2019-09-27 08:43:56 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.json.Overlapping matches criteria [is assignable to Object]
+2019-09-27 08:43:56 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.json.DataSets matches criteria [is assignable to Object]
+2019-09-27 08:43:56 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.xml.FieldEntity matches criteria [is assignable to Object]
+2019-09-27 08:43:56 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.json.QueryArea matches criteria [is assignable to Object]
+2019-09-27 08:43:56 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.json.Image matches criteria [is assignable to Object]
+2019-09-27 08:43:56 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.json.Col matches criteria [is assignable to Object]
+2019-09-27 08:43:56 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.xml.ParmEntity matches criteria [is assignable to Object]
+2019-09-27 08:43:56 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.json.Style matches criteria [is assignable to Object]
+2019-09-27 08:43:56 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.json.Nodes matches criteria [is assignable to Object]
+2019-09-27 08:43:56 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.JsonToXMLUtil matches criteria [is assignable to Object]
+2019-09-27 08:43:56 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.json.Parms matches criteria [is assignable to Object]
+2019-09-27 08:43:56 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.json.FillReport matches criteria [is assignable to Object]
+2019-09-27 08:43:56 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.xml.RowEntity matches criteria [is assignable to Object]
+2019-09-27 08:43:56 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.xml.ColEntity matches criteria [is assignable to Object]
+2019-09-27 08:43:56 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.json.Position matches criteria [is assignable to Object]
+2019-09-27 08:43:56 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.json.FillReportField matches criteria [is assignable to Object]
+2019-09-27 08:43:56 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.json.BarCode matches criteria [is assignable to Object]
+2019-09-27 08:43:56 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.xml.ReportEntity matches criteria [is assignable to Object]
+2019-09-27 08:43:56 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.json.Warning matches criteria [is assignable to Object]
+2019-09-27 08:43:56 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.json.ParmEvent matches criteria [is assignable to Object]
+2019-09-27 08:43:56 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.json.Fill matches criteria [is assignable to Object]
+2019-09-27 08:43:56 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.json.Field matches criteria [is assignable to Object]
+2019-09-27 08:43:56 DEBUG [main] - Scanned package: 'io.report.modules.rdp.entity' for aliases
+2019-09-27 08:43:56 DEBUG [main] - Checking to see if class io.report.modules.material.entity.MaterialEntity matches criteria [is assignable to Object]
+2019-09-27 08:43:56 DEBUG [main] - Scanned package: 'io.report.modules.material.entity' for aliases
+2019-09-27 08:43:56 DEBUG [main] - Checking to see if class io.report.modules.ser.entity.DataSetEntity matches criteria [is assignable to Object]
+2019-09-27 08:43:56 DEBUG [main] - Checking to see if class io.report.modules.ser.entity.DataSourceEntity matches criteria [is assignable to Object]
+2019-09-27 08:43:56 DEBUG [main] - Checking to see if class io.report.modules.ser.entity.DbTypeEntity matches criteria [is assignable to Object]
+2019-09-27 08:43:56 DEBUG [main] - Checking to see if class io.report.modules.ser.entity.DsShowcolEntity matches criteria [is assignable to Object]
+2019-09-27 08:43:56 DEBUG [main] - Checking to see if class io.report.modules.ser.entity.DtFilterEntity matches criteria [is assignable to Object]
+2019-09-27 08:43:56 DEBUG [main] - Checking to see if class io.report.modules.ser.entity.DtParamEntity matches criteria [is assignable to Object]
+2019-09-27 08:43:56 DEBUG [main] - Checking to see if class io.report.modules.ser.entity.DtTableEntity matches criteria [is assignable to Object]
+2019-09-27 08:43:56 DEBUG [main] - Checking to see if class io.report.modules.ser.entity.DtTableRsConditionEntity matches criteria [is assignable to Object]
+2019-09-27 08:43:56 DEBUG [main] - Checking to see if class io.report.modules.ser.entity.DtTableRsEntity matches criteria [is assignable to Object]
+2019-09-27 08:43:56 DEBUG [main] - Scanned package: 'io.report.modules.ser.entity' for aliases
+2019-09-27 08:43:56 DEBUG [main] - Checking to see if class io.report.modules.bddp.entity.BddpConstant matches criteria [is assignable to Object]
+2019-09-27 08:43:56 DEBUG [main] - Checking to see if class io.report.modules.bddp.entity.SqliteEntity matches criteria [is assignable to Object]
+2019-09-27 08:43:56 DEBUG [main] - Scanned package: 'io.report.modules.bddp.entity' for aliases
+2019-09-27 08:43:56 DEBUG [main] - Checking to see if class io.report.modules.sys.entity.SysAreaEntity matches criteria [is assignable to Object]
+2019-09-27 08:43:56 DEBUG [main] - Checking to see if class io.report.modules.sys.entity.SysConfigEntity matches criteria [is assignable to Object]
+2019-09-27 08:43:56 DEBUG [main] - Checking to see if class io.report.modules.sys.entity.SysDeptEntity matches criteria [is assignable to Object]
+2019-09-27 08:43:56 DEBUG [main] - Checking to see if class io.report.modules.sys.entity.SysDictEntity matches criteria [is assignable to Object]
+2019-09-27 08:43:56 DEBUG [main] - Checking to see if class io.report.modules.sys.entity.SysLogEntity matches criteria [is assignable to Object]
+2019-09-27 08:43:56 DEBUG [main] - Checking to see if class io.report.modules.sys.entity.SysMenuEntity matches criteria [is assignable to Object]
+2019-09-27 08:43:56 DEBUG [main] - Checking to see if class io.report.modules.sys.entity.SysRoleDeptEntity matches criteria [is assignable to Object]
+2019-09-27 08:43:56 DEBUG [main] - Checking to see if class io.report.modules.sys.entity.SysRoleEntity matches criteria [is assignable to Object]
+2019-09-27 08:43:56 DEBUG [main] - Checking to see if class io.report.modules.sys.entity.SysRoleMenuEntity matches criteria [is assignable to Object]
+2019-09-27 08:43:56 DEBUG [main] - Checking to see if class io.report.modules.sys.entity.SysUserEntity matches criteria [is assignable to Object]
+2019-09-27 08:43:56 DEBUG [main] - Checking to see if class io.report.modules.sys.entity.SysUserRoleEntity matches criteria [is assignable to Object]
+2019-09-27 08:43:56 DEBUG [main] - Checking to see if class io.report.modules.sys.entity.SysWayEntity matches criteria [is assignable to Object]
+2019-09-27 08:43:56 DEBUG [main] - Scanned package: 'io.report.modules.sys.entity' for aliases
+2019-09-27 08:43:56 DEBUG [main] - Registered plugin: 'com.baomidou.mybatisplus.plugins.PaginationInterceptor@1c57f6b2'
+2019-09-27 08:43:58 ERROR [Druid-ConnectionPool-Create-1122297225] - create connection SQLException, url: jdbc:mysql://localhost:3306/rdp_server?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8, errorCode 1049, state 42000
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'rdp_server'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:944)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3978)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3914)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2199)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2230)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2025)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:778)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:156)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1560)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1623)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2019-09-27 08:43:58 ERROR [Druid-ConnectionPool-Create-1122297225] - create connection SQLException, url: jdbc:mysql://localhost:3306/rdp_server?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8, errorCode 1049, state 42000
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'rdp_server'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:944)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3978)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3914)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2199)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2230)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2025)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:778)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:156)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1560)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1623)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2019-09-27 09:12:56 DEBUG [background-preinit] - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2019-09-27 09:12:56  INFO [background-preinit] - HV000001: Hibernate Validator 6.0.10.Final
+2019-09-27 09:12:57 DEBUG [background-preinit] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-09-27 09:12:57 DEBUG [background-preinit] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-09-27 09:12:57 DEBUG [background-preinit] - Trying to load META-INF/validation.xml via TCCL
+2019-09-27 09:12:57 DEBUG [background-preinit] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-09-27 09:12:57 DEBUG [background-preinit] - No META-INF/validation.xml found. Using annotation based configuration only.
+2019-09-27 09:12:57 DEBUG [background-preinit] - Loaded expression factory via original TCCL
+2019-09-27 09:12:57 DEBUG [background-preinit] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-09-27 09:12:57 DEBUG [background-preinit] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-09-27 09:12:57 DEBUG [background-preinit] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-09-27 09:12:57 DEBUG [background-preinit] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-09-27 09:12:57 DEBUG [background-preinit] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-09-27 09:12:58  INFO [main] - Starting AdminApplication on TEST-68MGSIIRSF with PID 11560 (started by Person in E:\自动化报表\RDP-SOURCE-2.3.11)
+2019-09-27 09:12:58 DEBUG [main] - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2019-09-27 09:12:58  INFO [main] - The following profiles are active: mysql
+2019-09-27 09:12:59 DEBUG [main] - Identified candidate component class: file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\io\report\modules\material\dao\MaterialDao.class]
+2019-09-27 09:12:59 DEBUG [main] - Ignored because not a concrete top-level class: file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\io\report\modules\rdp\dao\ReportDao.class]
+2019-09-27 09:12:59 DEBUG [main] - Identified candidate component class: file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\io\report\modules\ser\dao\DataSetDao.class]
+2019-09-27 09:12:59 DEBUG [main] - Identified candidate component class: file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\io\report\modules\ser\dao\DataSourceDao.class]
+2019-09-27 09:12:59 DEBUG [main] - Identified candidate component class: file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\io\report\modules\ser\dao\DbTypeDao.class]
+2019-09-27 09:12:59 DEBUG [main] - Identified candidate component class: file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\io\report\modules\ser\dao\DsShowcolDao.class]
+2019-09-27 09:12:59 DEBUG [main] - Identified candidate component class: file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\io\report\modules\ser\dao\DtFilterDao.class]
+2019-09-27 09:12:59 DEBUG [main] - Identified candidate component class: file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\io\report\modules\ser\dao\DtParamDao.class]
+2019-09-27 09:12:59 DEBUG [main] - Identified candidate component class: file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\io\report\modules\ser\dao\DtTableDao.class]
+2019-09-27 09:12:59 DEBUG [main] - Identified candidate component class: file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\io\report\modules\ser\dao\DtTableRsConditionDao.class]
+2019-09-27 09:12:59 DEBUG [main] - Identified candidate component class: file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\io\report\modules\ser\dao\DtTableRsDao.class]
+2019-09-27 09:12:59 DEBUG [main] - Identified candidate component class: file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\io\report\modules\sys\dao\SysAreaDao.class]
+2019-09-27 09:12:59 DEBUG [main] - Identified candidate component class: file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\io\report\modules\sys\dao\SysConfigDao.class]
+2019-09-27 09:12:59 DEBUG [main] - Identified candidate component class: file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\io\report\modules\sys\dao\SysDeptDao.class]
+2019-09-27 09:12:59 DEBUG [main] - Identified candidate component class: file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\io\report\modules\sys\dao\SysDictDao.class]
+2019-09-27 09:12:59 DEBUG [main] - Identified candidate component class: file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\io\report\modules\sys\dao\SysLogDao.class]
+2019-09-27 09:12:59 DEBUG [main] - Identified candidate component class: file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\io\report\modules\sys\dao\SysMenuDao.class]
+2019-09-27 09:12:59 DEBUG [main] - Identified candidate component class: file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\io\report\modules\sys\dao\SysRoleDao.class]
+2019-09-27 09:12:59 DEBUG [main] - Identified candidate component class: file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\io\report\modules\sys\dao\SysRoleDeptDao.class]
+2019-09-27 09:12:59 DEBUG [main] - Identified candidate component class: file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\io\report\modules\sys\dao\SysRoleMenuDao.class]
+2019-09-27 09:12:59 DEBUG [main] - Identified candidate component class: file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\io\report\modules\sys\dao\SysUserDao.class]
+2019-09-27 09:12:59 DEBUG [main] - Identified candidate component class: file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\io\report\modules\sys\dao\SysUserRoleDao.class]
+2019-09-27 09:12:59 DEBUG [main] - Identified candidate component class: file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\io\report\modules\sys\dao\SysWayDao.class]
+2019-09-27 09:12:59 DEBUG [main] - Ignored because not a concrete top-level class: URL [jar:file:/D:/m3/repository/io/report/report-common/1.0.6/report-common-1.0.6.jar!/io/report/modules/rdp/dao/ReportDao.class]
+2019-09-27 09:12:59 DEBUG [main] - Creating MapperFactoryBean with name 'materialDao' and 'io.report.modules.material.dao.MaterialDao' mapperInterface
+2019-09-27 09:12:59 DEBUG [main] - Enabling autowire by type for MapperFactoryBean with name 'materialDao'.
+2019-09-27 09:12:59 DEBUG [main] - Creating MapperFactoryBean with name 'dataSetDao' and 'io.report.modules.ser.dao.DataSetDao' mapperInterface
+2019-09-27 09:12:59 DEBUG [main] - Enabling autowire by type for MapperFactoryBean with name 'dataSetDao'.
+2019-09-27 09:12:59 DEBUG [main] - Creating MapperFactoryBean with name 'dataSourceDao' and 'io.report.modules.ser.dao.DataSourceDao' mapperInterface
+2019-09-27 09:12:59 DEBUG [main] - Enabling autowire by type for MapperFactoryBean with name 'dataSourceDao'.
+2019-09-27 09:12:59 DEBUG [main] - Creating MapperFactoryBean with name 'dbTypeDao' and 'io.report.modules.ser.dao.DbTypeDao' mapperInterface
+2019-09-27 09:12:59 DEBUG [main] - Enabling autowire by type for MapperFactoryBean with name 'dbTypeDao'.
+2019-09-27 09:12:59 DEBUG [main] - Creating MapperFactoryBean with name 'dsShowcolDao' and 'io.report.modules.ser.dao.DsShowcolDao' mapperInterface
+2019-09-27 09:12:59 DEBUG [main] - Enabling autowire by type for MapperFactoryBean with name 'dsShowcolDao'.
+2019-09-27 09:12:59 DEBUG [main] - Creating MapperFactoryBean with name 'dtFilterDao' and 'io.report.modules.ser.dao.DtFilterDao' mapperInterface
+2019-09-27 09:12:59 DEBUG [main] - Enabling autowire by type for MapperFactoryBean with name 'dtFilterDao'.
+2019-09-27 09:12:59 DEBUG [main] - Creating MapperFactoryBean with name 'dtParamDao' and 'io.report.modules.ser.dao.DtParamDao' mapperInterface
+2019-09-27 09:12:59 DEBUG [main] - Enabling autowire by type for MapperFactoryBean with name 'dtParamDao'.
+2019-09-27 09:12:59 DEBUG [main] - Creating MapperFactoryBean with name 'dtTableDao' and 'io.report.modules.ser.dao.DtTableDao' mapperInterface
+2019-09-27 09:12:59 DEBUG [main] - Enabling autowire by type for MapperFactoryBean with name 'dtTableDao'.
+2019-09-27 09:12:59 DEBUG [main] - Creating MapperFactoryBean with name 'dtTableRsConditionDao' and 'io.report.modules.ser.dao.DtTableRsConditionDao' mapperInterface
+2019-09-27 09:12:59 DEBUG [main] - Enabling autowire by type for MapperFactoryBean with name 'dtTableRsConditionDao'.
+2019-09-27 09:12:59 DEBUG [main] - Creating MapperFactoryBean with name 'dtTableRsDao' and 'io.report.modules.ser.dao.DtTableRsDao' mapperInterface
+2019-09-27 09:12:59 DEBUG [main] - Enabling autowire by type for MapperFactoryBean with name 'dtTableRsDao'.
+2019-09-27 09:12:59 DEBUG [main] - Creating MapperFactoryBean with name 'sysAreaDao' and 'io.report.modules.sys.dao.SysAreaDao' mapperInterface
+2019-09-27 09:12:59 DEBUG [main] - Enabling autowire by type for MapperFactoryBean with name 'sysAreaDao'.
+2019-09-27 09:12:59 DEBUG [main] - Creating MapperFactoryBean with name 'sysConfigDao' and 'io.report.modules.sys.dao.SysConfigDao' mapperInterface
+2019-09-27 09:12:59 DEBUG [main] - Enabling autowire by type for MapperFactoryBean with name 'sysConfigDao'.
+2019-09-27 09:12:59 DEBUG [main] - Creating MapperFactoryBean with name 'sysDeptDao' and 'io.report.modules.sys.dao.SysDeptDao' mapperInterface
+2019-09-27 09:12:59 DEBUG [main] - Enabling autowire by type for MapperFactoryBean with name 'sysDeptDao'.
+2019-09-27 09:12:59 DEBUG [main] - Creating MapperFactoryBean with name 'sysDictDao' and 'io.report.modules.sys.dao.SysDictDao' mapperInterface
+2019-09-27 09:12:59 DEBUG [main] - Enabling autowire by type for MapperFactoryBean with name 'sysDictDao'.
+2019-09-27 09:12:59 DEBUG [main] - Creating MapperFactoryBean with name 'sysLogDao' and 'io.report.modules.sys.dao.SysLogDao' mapperInterface
+2019-09-27 09:12:59 DEBUG [main] - Enabling autowire by type for MapperFactoryBean with name 'sysLogDao'.
+2019-09-27 09:12:59 DEBUG [main] - Creating MapperFactoryBean with name 'sysMenuDao' and 'io.report.modules.sys.dao.SysMenuDao' mapperInterface
+2019-09-27 09:12:59 DEBUG [main] - Enabling autowire by type for MapperFactoryBean with name 'sysMenuDao'.
+2019-09-27 09:12:59 DEBUG [main] - Creating MapperFactoryBean with name 'sysRoleDao' and 'io.report.modules.sys.dao.SysRoleDao' mapperInterface
+2019-09-27 09:12:59 DEBUG [main] - Enabling autowire by type for MapperFactoryBean with name 'sysRoleDao'.
+2019-09-27 09:12:59 DEBUG [main] - Creating MapperFactoryBean with name 'sysRoleDeptDao' and 'io.report.modules.sys.dao.SysRoleDeptDao' mapperInterface
+2019-09-27 09:12:59 DEBUG [main] - Enabling autowire by type for MapperFactoryBean with name 'sysRoleDeptDao'.
+2019-09-27 09:12:59 DEBUG [main] - Creating MapperFactoryBean with name 'sysRoleMenuDao' and 'io.report.modules.sys.dao.SysRoleMenuDao' mapperInterface
+2019-09-27 09:12:59 DEBUG [main] - Enabling autowire by type for MapperFactoryBean with name 'sysRoleMenuDao'.
+2019-09-27 09:12:59 DEBUG [main] - Creating MapperFactoryBean with name 'sysUserDao' and 'io.report.modules.sys.dao.SysUserDao' mapperInterface
+2019-09-27 09:12:59 DEBUG [main] - Enabling autowire by type for MapperFactoryBean with name 'sysUserDao'.
+2019-09-27 09:12:59 DEBUG [main] - Creating MapperFactoryBean with name 'sysUserRoleDao' and 'io.report.modules.sys.dao.SysUserRoleDao' mapperInterface
+2019-09-27 09:12:59 DEBUG [main] - Enabling autowire by type for MapperFactoryBean with name 'sysUserRoleDao'.
+2019-09-27 09:12:59 DEBUG [main] - Creating MapperFactoryBean with name 'sysWayDao' and 'io.report.modules.sys.dao.SysWayDao' mapperInterface
+2019-09-27 09:12:59 DEBUG [main] - Enabling autowire by type for MapperFactoryBean with name 'sysWayDao'.
+2019-09-27 09:13:00 DEBUG [main] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-09-27 09:13:00 DEBUG [main] - DeBug: MyBatis Plus Global configuration Initializing !
+2019-09-27 09:13:00 DEBUG [main] - addMappedStatement: com.baomidou.mybatisplus.mapper.SqlRunner.SelectList
+2019-09-27 09:13:00 DEBUG [main] - addMappedStatement: com.baomidou.mybatisplus.mapper.SqlRunner.SelectObjs
+2019-09-27 09:13:00 DEBUG [main] - addMappedStatement: com.baomidou.mybatisplus.mapper.SqlRunner.Insert
+2019-09-27 09:13:00 DEBUG [main] - addMappedStatement: com.baomidou.mybatisplus.mapper.SqlRunner.Update
+2019-09-27 09:13:00 DEBUG [main] - addMappedStatement: com.baomidou.mybatisplus.mapper.SqlRunner.Delete
+2019-09-27 09:13:00 DEBUG [main] - addMappedStatement: com.baomidou.mybatisplus.mapper.SqlRunner.Count
+2019-09-27 09:13:00 DEBUG [main] - Mybatis-plus init success.
+2019-09-27 09:13:01  INFO [main] - 正在加载数据源，如果卡在这个界面，可能是数据源配置不正确，请检查application-prod.yml文件中的配置
+2019-09-27 09:13:01 DEBUG [main] - Using VFS adapter com.baomidou.mybatisplus.spring.boot.starter.SpringBootVFS
+2019-09-27 09:13:01 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.xml.FillReportFieldEntity matches criteria [is assignable to Object]
+2019-09-27 09:13:01 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.json.RowCategory matches criteria [is assignable to Object]
+2019-09-27 09:13:01 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.json.MergeCells matches criteria [is assignable to Object]
+2019-09-27 09:13:01 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.xml.FillReportEntity matches criteria [is assignable to Object]
+2019-09-27 09:13:01 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.json.Row matches criteria [is assignable to Object]
+2019-09-27 09:13:01 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.json.JsonReportEntity matches criteria [is assignable to Object]
+2019-09-27 09:13:01 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.json.DataParms matches criteria [is assignable to Object]
+2019-09-27 09:13:01 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.xml.RdpDataSetEntity matches criteria [is assignable to Object]
+2019-09-27 09:13:01 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.json.Symbol matches criteria [is assignable to Object]
+2019-09-27 09:13:01 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.json.Overlapping matches criteria [is assignable to Object]
+2019-09-27 09:13:01 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.json.DataSets matches criteria [is assignable to Object]
+2019-09-27 09:13:01 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.xml.FieldEntity matches criteria [is assignable to Object]
+2019-09-27 09:13:01 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.json.QueryArea matches criteria [is assignable to Object]
+2019-09-27 09:13:01 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.json.Image matches criteria [is assignable to Object]
+2019-09-27 09:13:01 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.json.Col matches criteria [is assignable to Object]
+2019-09-27 09:13:01 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.xml.ParmEntity matches criteria [is assignable to Object]
+2019-09-27 09:13:01 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.json.Style matches criteria [is assignable to Object]
+2019-09-27 09:13:01 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.json.Nodes matches criteria [is assignable to Object]
+2019-09-27 09:13:01 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.JsonToXMLUtil matches criteria [is assignable to Object]
+2019-09-27 09:13:01 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.json.Parms matches criteria [is assignable to Object]
+2019-09-27 09:13:01 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.json.FillReport matches criteria [is assignable to Object]
+2019-09-27 09:13:01 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.xml.RowEntity matches criteria [is assignable to Object]
+2019-09-27 09:13:01 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.xml.ColEntity matches criteria [is assignable to Object]
+2019-09-27 09:13:01 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.json.Position matches criteria [is assignable to Object]
+2019-09-27 09:13:01 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.json.FillReportField matches criteria [is assignable to Object]
+2019-09-27 09:13:01 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.json.BarCode matches criteria [is assignable to Object]
+2019-09-27 09:13:01 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.xml.ReportEntity matches criteria [is assignable to Object]
+2019-09-27 09:13:01 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.json.Warning matches criteria [is assignable to Object]
+2019-09-27 09:13:01 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.json.ParmEvent matches criteria [is assignable to Object]
+2019-09-27 09:13:01 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.json.Fill matches criteria [is assignable to Object]
+2019-09-27 09:13:01 DEBUG [main] - Checking to see if class io.report.modules.rdp.entity.json.Field matches criteria [is assignable to Object]
+2019-09-27 09:13:01 DEBUG [main] - Scanned package: 'io.report.modules.rdp.entity' for aliases
+2019-09-27 09:13:01 DEBUG [main] - Checking to see if class io.report.modules.material.entity.MaterialEntity matches criteria [is assignable to Object]
+2019-09-27 09:13:01 DEBUG [main] - Scanned package: 'io.report.modules.material.entity' for aliases
+2019-09-27 09:13:01 DEBUG [main] - Checking to see if class io.report.modules.ser.entity.DataSetEntity matches criteria [is assignable to Object]
+2019-09-27 09:13:01 DEBUG [main] - Checking to see if class io.report.modules.ser.entity.DataSourceEntity matches criteria [is assignable to Object]
+2019-09-27 09:13:01 DEBUG [main] - Checking to see if class io.report.modules.ser.entity.DbTypeEntity matches criteria [is assignable to Object]
+2019-09-27 09:13:01 DEBUG [main] - Checking to see if class io.report.modules.ser.entity.DsShowcolEntity matches criteria [is assignable to Object]
+2019-09-27 09:13:01 DEBUG [main] - Checking to see if class io.report.modules.ser.entity.DtFilterEntity matches criteria [is assignable to Object]
+2019-09-27 09:13:01 DEBUG [main] - Checking to see if class io.report.modules.ser.entity.DtParamEntity matches criteria [is assignable to Object]
+2019-09-27 09:13:01 DEBUG [main] - Checking to see if class io.report.modules.ser.entity.DtTableEntity matches criteria [is assignable to Object]
+2019-09-27 09:13:01 DEBUG [main] - Checking to see if class io.report.modules.ser.entity.DtTableRsConditionEntity matches criteria [is assignable to Object]
+2019-09-27 09:13:01 DEBUG [main] - Checking to see if class io.report.modules.ser.entity.DtTableRsEntity matches criteria [is assignable to Object]
+2019-09-27 09:13:01 DEBUG [main] - Scanned package: 'io.report.modules.ser.entity' for aliases
+2019-09-27 09:13:01 DEBUG [main] - Checking to see if class io.report.modules.bddp.entity.BddpConstant matches criteria [is assignable to Object]
+2019-09-27 09:13:01 DEBUG [main] - Checking to see if class io.report.modules.bddp.entity.SqliteEntity matches criteria [is assignable to Object]
+2019-09-27 09:13:01 DEBUG [main] - Scanned package: 'io.report.modules.bddp.entity' for aliases
+2019-09-27 09:13:01 DEBUG [main] - Checking to see if class io.report.modules.sys.entity.SysAreaEntity matches criteria [is assignable to Object]
+2019-09-27 09:13:01 DEBUG [main] - Checking to see if class io.report.modules.sys.entity.SysConfigEntity matches criteria [is assignable to Object]
+2019-09-27 09:13:01 DEBUG [main] - Checking to see if class io.report.modules.sys.entity.SysDeptEntity matches criteria [is assignable to Object]
+2019-09-27 09:13:01 DEBUG [main] - Checking to see if class io.report.modules.sys.entity.SysDictEntity matches criteria [is assignable to Object]
+2019-09-27 09:13:01 DEBUG [main] - Checking to see if class io.report.modules.sys.entity.SysLogEntity matches criteria [is assignable to Object]
+2019-09-27 09:13:01 DEBUG [main] - Checking to see if class io.report.modules.sys.entity.SysMenuEntity matches criteria [is assignable to Object]
+2019-09-27 09:13:01 DEBUG [main] - Checking to see if class io.report.modules.sys.entity.SysRoleDeptEntity matches criteria [is assignable to Object]
+2019-09-27 09:13:01 DEBUG [main] - Checking to see if class io.report.modules.sys.entity.SysRoleEntity matches criteria [is assignable to Object]
+2019-09-27 09:13:01 DEBUG [main] - Checking to see if class io.report.modules.sys.entity.SysRoleMenuEntity matches criteria [is assignable to Object]
+2019-09-27 09:13:01 DEBUG [main] - Checking to see if class io.report.modules.sys.entity.SysUserEntity matches criteria [is assignable to Object]
+2019-09-27 09:13:01 DEBUG [main] - Checking to see if class io.report.modules.sys.entity.SysUserRoleEntity matches criteria [is assignable to Object]
+2019-09-27 09:13:01 DEBUG [main] - Checking to see if class io.report.modules.sys.entity.SysWayEntity matches criteria [is assignable to Object]
+2019-09-27 09:13:01 DEBUG [main] - Scanned package: 'io.report.modules.sys.entity' for aliases
+2019-09-27 09:13:01 DEBUG [main] - Registered plugin: 'com.baomidou.mybatisplus.plugins.PaginationInterceptor@377874b4'
+2019-09-27 09:13:02  WARN [main] - Warn: Could not find @TableId in Class: io.report.modules.material.entity.MaterialEntity.
+2019-09-27 09:13:02  WARN [main] - class io.report.modules.material.entity.MaterialEntity ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.material.dao.MaterialDao.insert
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.material.dao.MaterialDao.insertAllColumn
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.material.dao.MaterialDao.delete
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.material.dao.MaterialDao.deleteByMap
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.material.dao.MaterialDao.update
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.material.dao.MaterialDao.selectByMap
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.material.dao.MaterialDao.selectOne
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.material.dao.MaterialDao.selectCount
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.material.dao.MaterialDao.selectList
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.material.dao.MaterialDao.selectPage
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.material.dao.MaterialDao.selectMaps
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.material.dao.MaterialDao.selectMapsPage
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.material.dao.MaterialDao.selectObjs
+2019-09-27 09:13:02 DEBUG [main] - Parsed mapper file: 'file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\mapper\material\MaterialDao.xml]'
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DataSetDao.deleteById
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DataSetDao.deleteBatchIds
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DataSetDao.updateById
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DataSetDao.updateAllColumnById
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DataSetDao.selectById
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DataSetDao.selectBatchIds
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DataSetDao.insert
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DataSetDao.insertAllColumn
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DataSetDao.delete
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DataSetDao.deleteByMap
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DataSetDao.update
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DataSetDao.selectByMap
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DataSetDao.selectOne
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DataSetDao.selectCount
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DataSetDao.selectList
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DataSetDao.selectPage
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DataSetDao.selectMaps
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DataSetDao.selectMapsPage
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DataSetDao.selectObjs
+2019-09-27 09:13:02 DEBUG [main] - Parsed mapper file: 'file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\mapper\ser\DataSetDao.xml]'
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DataSourceDao.deleteById
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DataSourceDao.deleteBatchIds
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DataSourceDao.updateById
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DataSourceDao.updateAllColumnById
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DataSourceDao.selectById
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DataSourceDao.selectBatchIds
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DataSourceDao.insert
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DataSourceDao.insertAllColumn
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DataSourceDao.delete
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DataSourceDao.deleteByMap
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DataSourceDao.update
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DataSourceDao.selectByMap
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DataSourceDao.selectOne
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DataSourceDao.selectCount
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DataSourceDao.selectList
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DataSourceDao.selectPage
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DataSourceDao.selectMaps
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DataSourceDao.selectMapsPage
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DataSourceDao.selectObjs
+2019-09-27 09:13:02 DEBUG [main] - Parsed mapper file: 'file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\mapper\ser\DataSourceDao.xml]'
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DbTypeDao.deleteById
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DbTypeDao.deleteBatchIds
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DbTypeDao.updateById
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DbTypeDao.updateAllColumnById
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DbTypeDao.selectById
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DbTypeDao.selectBatchIds
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DbTypeDao.insert
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DbTypeDao.insertAllColumn
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DbTypeDao.delete
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DbTypeDao.deleteByMap
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DbTypeDao.update
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DbTypeDao.selectByMap
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DbTypeDao.selectOne
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DbTypeDao.selectCount
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DbTypeDao.selectList
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DbTypeDao.selectPage
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DbTypeDao.selectMaps
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DbTypeDao.selectMapsPage
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DbTypeDao.selectObjs
+2019-09-27 09:13:02 DEBUG [main] - Parsed mapper file: 'file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\mapper\ser\DbTypeDao.xml]'
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DsShowcolDao.deleteById
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DsShowcolDao.deleteBatchIds
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DsShowcolDao.updateById
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DsShowcolDao.updateAllColumnById
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DsShowcolDao.selectById
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DsShowcolDao.selectBatchIds
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DsShowcolDao.insert
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DsShowcolDao.insertAllColumn
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DsShowcolDao.delete
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DsShowcolDao.deleteByMap
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DsShowcolDao.update
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DsShowcolDao.selectByMap
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DsShowcolDao.selectOne
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DsShowcolDao.selectCount
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DsShowcolDao.selectList
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DsShowcolDao.selectPage
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DsShowcolDao.selectMaps
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DsShowcolDao.selectMapsPage
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DsShowcolDao.selectObjs
+2019-09-27 09:13:02 DEBUG [main] - Parsed mapper file: 'file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\mapper\ser\DsShowcolDao.xml]'
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtFilterDao.deleteById
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtFilterDao.deleteBatchIds
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtFilterDao.updateById
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtFilterDao.updateAllColumnById
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtFilterDao.selectById
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtFilterDao.selectBatchIds
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtFilterDao.insert
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtFilterDao.insertAllColumn
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtFilterDao.delete
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtFilterDao.deleteByMap
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtFilterDao.update
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtFilterDao.selectByMap
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtFilterDao.selectOne
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtFilterDao.selectCount
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtFilterDao.selectList
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtFilterDao.selectPage
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtFilterDao.selectMaps
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtFilterDao.selectMapsPage
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtFilterDao.selectObjs
+2019-09-27 09:13:02 DEBUG [main] - Parsed mapper file: 'file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\mapper\ser\DtFilterDao.xml]'
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtParamDao.deleteById
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtParamDao.deleteBatchIds
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtParamDao.updateById
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtParamDao.updateAllColumnById
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtParamDao.selectById
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtParamDao.selectBatchIds
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtParamDao.insert
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtParamDao.insertAllColumn
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtParamDao.delete
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtParamDao.deleteByMap
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtParamDao.update
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtParamDao.selectByMap
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtParamDao.selectOne
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtParamDao.selectCount
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtParamDao.selectList
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtParamDao.selectPage
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtParamDao.selectMaps
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtParamDao.selectMapsPage
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtParamDao.selectObjs
+2019-09-27 09:13:02 DEBUG [main] - Parsed mapper file: 'file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\mapper\ser\DtParamDao.xml]'
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtTableDao.deleteById
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtTableDao.deleteBatchIds
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtTableDao.updateById
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtTableDao.updateAllColumnById
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtTableDao.selectById
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtTableDao.selectBatchIds
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtTableDao.insert
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtTableDao.insertAllColumn
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtTableDao.delete
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtTableDao.deleteByMap
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtTableDao.update
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtTableDao.selectByMap
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtTableDao.selectOne
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtTableDao.selectCount
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtTableDao.selectList
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtTableDao.selectPage
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtTableDao.selectMaps
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtTableDao.selectMapsPage
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtTableDao.selectObjs
+2019-09-27 09:13:02 DEBUG [main] - Parsed mapper file: 'file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\mapper\ser\DtTableDao.xml]'
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtTableRsConditionDao.deleteById
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtTableRsConditionDao.deleteBatchIds
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtTableRsConditionDao.updateById
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtTableRsConditionDao.updateAllColumnById
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtTableRsConditionDao.selectById
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtTableRsConditionDao.selectBatchIds
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtTableRsConditionDao.insert
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtTableRsConditionDao.insertAllColumn
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtTableRsConditionDao.delete
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtTableRsConditionDao.deleteByMap
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtTableRsConditionDao.update
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtTableRsConditionDao.selectByMap
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtTableRsConditionDao.selectOne
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtTableRsConditionDao.selectCount
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtTableRsConditionDao.selectList
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtTableRsConditionDao.selectPage
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtTableRsConditionDao.selectMaps
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtTableRsConditionDao.selectMapsPage
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtTableRsConditionDao.selectObjs
+2019-09-27 09:13:02 DEBUG [main] - Parsed mapper file: 'file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\mapper\ser\DtTableRsConditionDao.xml]'
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtTableRsDao.deleteById
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtTableRsDao.deleteBatchIds
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtTableRsDao.updateById
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtTableRsDao.updateAllColumnById
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtTableRsDao.selectById
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtTableRsDao.selectBatchIds
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtTableRsDao.insert
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtTableRsDao.insertAllColumn
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtTableRsDao.delete
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtTableRsDao.deleteByMap
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtTableRsDao.update
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtTableRsDao.selectByMap
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtTableRsDao.selectOne
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtTableRsDao.selectCount
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtTableRsDao.selectList
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtTableRsDao.selectPage
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtTableRsDao.selectMaps
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtTableRsDao.selectMapsPage
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.ser.dao.DtTableRsDao.selectObjs
+2019-09-27 09:13:02 DEBUG [main] - Parsed mapper file: 'file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\mapper\ser\DtTableRsDao.xml]'
+2019-09-27 09:13:02  WARN [main] - Warn: Could not find @TableId in Class: io.report.modules.sys.entity.SysAreaEntity.
+2019-09-27 09:13:02  WARN [main] - class io.report.modules.sys.entity.SysAreaEntity ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysAreaDao.insert
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysAreaDao.insertAllColumn
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysAreaDao.delete
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysAreaDao.deleteByMap
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysAreaDao.update
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysAreaDao.selectByMap
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysAreaDao.selectOne
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysAreaDao.selectCount
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysAreaDao.selectList
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysAreaDao.selectPage
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysAreaDao.selectMaps
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysAreaDao.selectMapsPage
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysAreaDao.selectObjs
+2019-09-27 09:13:02 DEBUG [main] - Parsed mapper file: 'file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\mapper\sys\SysAreaDao.xml]'
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysConfigDao.updateValueByKey
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysConfigDao.queryByKey
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysConfigDao.deleteById
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysConfigDao.deleteBatchIds
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysConfigDao.updateById
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysConfigDao.updateAllColumnById
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysConfigDao.selectById
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysConfigDao.selectBatchIds
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysConfigDao.insert
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysConfigDao.insertAllColumn
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysConfigDao.delete
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysConfigDao.deleteByMap
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysConfigDao.update
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysConfigDao.selectByMap
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysConfigDao.selectOne
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysConfigDao.selectCount
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysConfigDao.selectList
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysConfigDao.selectPage
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysConfigDao.selectMaps
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysConfigDao.selectMapsPage
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysConfigDao.selectObjs
+2019-09-27 09:13:02 DEBUG [main] - Parsed mapper file: 'file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\mapper\sys\SysConfigDao.xml]'
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysDeptDao.queryDetpIdList
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysDeptDao.deleteById
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysDeptDao.deleteBatchIds
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysDeptDao.updateById
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysDeptDao.updateAllColumnById
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysDeptDao.selectById
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysDeptDao.selectBatchIds
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysDeptDao.insert
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysDeptDao.insertAllColumn
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysDeptDao.delete
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysDeptDao.deleteByMap
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysDeptDao.update
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysDeptDao.selectByMap
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysDeptDao.selectOne
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysDeptDao.selectCount
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysDeptDao.selectList
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysDeptDao.selectPage
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysDeptDao.selectMaps
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysDeptDao.selectMapsPage
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysDeptDao.selectObjs
+2019-09-27 09:13:02 DEBUG [main] - Parsed mapper file: 'file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\mapper\sys\SysDeptDao.xml]'
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysDictDao.deleteById
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysDictDao.deleteBatchIds
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysDictDao.updateById
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysDictDao.updateAllColumnById
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysDictDao.selectById
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysDictDao.selectBatchIds
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysDictDao.insert
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysDictDao.insertAllColumn
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysDictDao.delete
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysDictDao.deleteByMap
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysDictDao.update
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysDictDao.selectByMap
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysDictDao.selectOne
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysDictDao.selectCount
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysDictDao.selectList
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysDictDao.selectPage
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysDictDao.selectMaps
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysDictDao.selectMapsPage
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysDictDao.selectObjs
+2019-09-27 09:13:02 DEBUG [main] - Parsed mapper file: 'file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\mapper\sys\SysDictDao.xml]'
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysLogDao.deleteById
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysLogDao.deleteBatchIds
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysLogDao.updateById
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysLogDao.updateAllColumnById
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysLogDao.selectById
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysLogDao.selectBatchIds
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysLogDao.insert
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysLogDao.insertAllColumn
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysLogDao.delete
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysLogDao.deleteByMap
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysLogDao.update
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysLogDao.selectByMap
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysLogDao.selectOne
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysLogDao.selectCount
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysLogDao.selectList
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysLogDao.selectPage
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysLogDao.selectMaps
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysLogDao.selectMapsPage
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysLogDao.selectObjs
+2019-09-27 09:13:02 DEBUG [main] - Parsed mapper file: 'file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\mapper\sys\SysLogDao.xml]'
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysMenuDao.queryListParentId
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysMenuDao.queryNotButtonList
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysMenuDao.deleteById
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysMenuDao.deleteBatchIds
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysMenuDao.updateById
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysMenuDao.updateAllColumnById
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysMenuDao.selectById
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysMenuDao.selectBatchIds
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysMenuDao.insert
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysMenuDao.insertAllColumn
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysMenuDao.delete
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysMenuDao.deleteByMap
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysMenuDao.update
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysMenuDao.selectByMap
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysMenuDao.selectOne
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysMenuDao.selectCount
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysMenuDao.selectList
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysMenuDao.selectPage
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysMenuDao.selectMaps
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysMenuDao.selectMapsPage
+2019-09-27 09:13:02 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysMenuDao.selectObjs
+2019-09-27 09:13:02 DEBUG [main] - Parsed mapper file: 'file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\mapper\sys\SysMenuDao.xml]'
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleDao.deleteById
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleDao.deleteBatchIds
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleDao.updateById
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleDao.updateAllColumnById
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleDao.selectById
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleDao.selectBatchIds
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleDao.insert
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleDao.insertAllColumn
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleDao.delete
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleDao.deleteByMap
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleDao.update
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleDao.selectByMap
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleDao.selectOne
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleDao.selectCount
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleDao.selectList
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleDao.selectPage
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleDao.selectMaps
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleDao.selectMapsPage
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleDao.selectObjs
+2019-09-27 09:13:03 DEBUG [main] - Parsed mapper file: 'file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\mapper\sys\SysRoleDao.xml]'
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleDeptDao.queryDeptIdList
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleDeptDao.deleteBatch
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleDeptDao.deleteById
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleDeptDao.deleteBatchIds
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleDeptDao.updateById
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleDeptDao.updateAllColumnById
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleDeptDao.selectById
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleDeptDao.selectBatchIds
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleDeptDao.insert
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleDeptDao.insertAllColumn
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleDeptDao.delete
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleDeptDao.deleteByMap
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleDeptDao.update
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleDeptDao.selectByMap
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleDeptDao.selectOne
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleDeptDao.selectCount
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleDeptDao.selectList
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleDeptDao.selectPage
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleDeptDao.selectMaps
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleDeptDao.selectMapsPage
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleDeptDao.selectObjs
+2019-09-27 09:13:03 DEBUG [main] - Parsed mapper file: 'file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\mapper\sys\SysRoleDeptDao.xml]'
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleMenuDao.queryMenuIdList
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleMenuDao.deleteBatch
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleMenuDao.deleteById
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleMenuDao.deleteBatchIds
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleMenuDao.updateById
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleMenuDao.updateAllColumnById
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleMenuDao.selectById
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleMenuDao.selectBatchIds
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleMenuDao.insert
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleMenuDao.insertAllColumn
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleMenuDao.delete
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleMenuDao.deleteByMap
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleMenuDao.update
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleMenuDao.selectByMap
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleMenuDao.selectOne
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleMenuDao.selectCount
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleMenuDao.selectList
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleMenuDao.selectPage
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleMenuDao.selectMaps
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleMenuDao.selectMapsPage
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysRoleMenuDao.selectObjs
+2019-09-27 09:13:03 DEBUG [main] - Parsed mapper file: 'file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\mapper\sys\SysRoleMenuDao.xml]'
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysUserDao.queryAllPerms
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysUserDao.queryAllMenuId
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysUserDao.deleteById
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysUserDao.deleteBatchIds
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysUserDao.updateById
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysUserDao.updateAllColumnById
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysUserDao.selectById
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysUserDao.selectBatchIds
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysUserDao.insert
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysUserDao.insertAllColumn
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysUserDao.delete
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysUserDao.deleteByMap
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysUserDao.update
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysUserDao.selectByMap
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysUserDao.selectOne
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysUserDao.selectCount
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysUserDao.selectList
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysUserDao.selectPage
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysUserDao.selectMaps
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysUserDao.selectMapsPage
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysUserDao.selectObjs
+2019-09-27 09:13:03 DEBUG [main] - Parsed mapper file: 'file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\mapper\sys\SysUserDao.xml]'
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysUserRoleDao.queryRoleIdList
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysUserRoleDao.deleteBatch
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysUserRoleDao.deleteById
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysUserRoleDao.deleteBatchIds
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysUserRoleDao.updateById
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysUserRoleDao.updateAllColumnById
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysUserRoleDao.selectById
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysUserRoleDao.selectBatchIds
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysUserRoleDao.insert
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysUserRoleDao.insertAllColumn
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysUserRoleDao.delete
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysUserRoleDao.deleteByMap
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysUserRoleDao.update
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysUserRoleDao.selectByMap
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysUserRoleDao.selectOne
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysUserRoleDao.selectCount
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysUserRoleDao.selectList
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysUserRoleDao.selectPage
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysUserRoleDao.selectMaps
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysUserRoleDao.selectMapsPage
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysUserRoleDao.selectObjs
+2019-09-27 09:13:03 DEBUG [main] - Parsed mapper file: 'file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\mapper\sys\SysUserRoleDao.xml]'
+2019-09-27 09:13:03  WARN [main] - Warn: Could not find @TableId in Class: io.report.modules.sys.entity.SysWayEntity.
+2019-09-27 09:13:03  WARN [main] - class io.report.modules.sys.entity.SysWayEntity ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysWayDao.insert
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysWayDao.insertAllColumn
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysWayDao.delete
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysWayDao.deleteByMap
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysWayDao.update
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysWayDao.selectByMap
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysWayDao.selectOne
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysWayDao.selectCount
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysWayDao.selectList
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysWayDao.selectPage
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysWayDao.selectMaps
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysWayDao.selectMapsPage
+2019-09-27 09:13:03 DEBUG [main] - addMappedStatement: io.report.modules.sys.dao.SysWayDao.selectObjs
+2019-09-27 09:13:03 DEBUG [main] - Parsed mapper file: 'file [E:\自动化报表\RDP-SOURCE-2.3.11\target\classes\mapper\sys\SysWayDao.xml]'
+2019-09-27 09:13:03 DEBUG [main] - Initializing bean [userRealm]...
+2019-09-27 09:13:03 DEBUG [main] - No authorizationCache instance set.  Checking for a cacheManager...
+2019-09-27 09:13:03 DEBUG [main] - No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+2019-09-27 09:13:03 DEBUG [main] - Using SLF4J as the default logging framework
+2019-09-27 09:13:03 DEBUG [main] - -Dio.netty.eventLoopThreads: 4
+2019-09-27 09:13:03 DEBUG [main] - -Dio.netty.leakDetection.level: simple
+2019-09-27 09:13:03 DEBUG [main] - -Dio.netty.leakDetection.targetRecords: 4
+2019-09-27 09:13:03 DEBUG [main] - Platform: Windows
+2019-09-27 09:13:03 DEBUG [main] - -Dio.netty.noUnsafe: false
+2019-09-27 09:13:03 DEBUG [main] - Java version: 8
+2019-09-27 09:13:03 DEBUG [main] - sun.misc.Unsafe.theUnsafe: available
+2019-09-27 09:13:03 DEBUG [main] - sun.misc.Unsafe.copyMemory: available
+2019-09-27 09:13:03 DEBUG [main] - java.nio.Buffer.address: available
+2019-09-27 09:13:03 DEBUG [main] - direct buffer constructor: available
+2019-09-27 09:13:03 DEBUG [main] - java.nio.Bits.unaligned: available, true
+2019-09-27 09:13:03 DEBUG [main] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2019-09-27 09:13:03 DEBUG [main] - java.nio.DirectByteBuffer.<init>(long, int): available
+2019-09-27 09:13:03 DEBUG [main] - sun.misc.Unsafe: available
+2019-09-27 09:13:03 DEBUG [main] - -Dio.netty.tmpdir: D:\Users\Person\AppData\Local\Temp (java.io.tmpdir)
+2019-09-27 09:13:03 DEBUG [main] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2019-09-27 09:13:03 DEBUG [main] - -Dio.netty.noPreferDirect: false
+2019-09-27 09:13:03 DEBUG [main] - -Dio.netty.maxDirectMemory: 1888485376 bytes
+2019-09-27 09:13:03 DEBUG [main] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2019-09-27 09:13:03 DEBUG [main] - java.nio.ByteBuffer.cleaner(): available
+2019-09-27 09:13:03 DEBUG [main] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3820cfe
+2019-09-27 09:13:03 DEBUG [main] - org.jctools-core.MpscChunkedArrayQueue: available
+2019-09-27 09:13:03 DEBUG [main] - Using Slf4j logging framework
+2019-09-27 09:13:03 DEBUG [main] - Starting UnsafeSupport init in Java 1.8
+2019-09-27 09:13:03 DEBUG [main] - Unsafe is available
+2019-09-27 09:13:03 DEBUG [main] - LatencyUtils/HdrUtils are not available, metrics are disabled
+2019-09-27 09:13:03 DEBUG [main] - -Dio.netty.allocator.numHeapArenas: 8
+2019-09-27 09:13:03 DEBUG [main] - -Dio.netty.allocator.numDirectArenas: 8
+2019-09-27 09:13:03 DEBUG [main] - -Dio.netty.allocator.pageSize: 8192
+2019-09-27 09:13:03 DEBUG [main] - -Dio.netty.allocator.maxOrder: 11
+2019-09-27 09:13:03 DEBUG [main] - -Dio.netty.allocator.chunkSize: 16777216
+2019-09-27 09:13:03 DEBUG [main] - -Dio.netty.allocator.tinyCacheSize: 512
+2019-09-27 09:13:03 DEBUG [main] - -Dio.netty.allocator.smallCacheSize: 256
+2019-09-27 09:13:03 DEBUG [main] - -Dio.netty.allocator.normalCacheSize: 64
+2019-09-27 09:13:03 DEBUG [main] - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2019-09-27 09:13:03 DEBUG [main] - -Dio.netty.allocator.cacheTrimInterval: 8192
+2019-09-27 09:13:03 DEBUG [main] - -Dio.netty.allocator.useCacheForAllThreads: true
+2019-09-27 09:13:03 DEBUG [main] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2019-09-27 09:13:03 DEBUG [main] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2019-09-27 09:13:05 DEBUG [localhost-startStop-1] - Creating Shiro Filter instance.
+2019-09-27 09:13:05 DEBUG [localhost-startStop-1] - Creating chain [/swagger/**] from String definition [anon]
+2019-09-27 09:13:05 DEBUG [localhost-startStop-1] - Attempting to apply path [/swagger/**] to filter [anon] with config [null]
+2019-09-27 09:13:05 DEBUG [localhost-startStop-1] - Creating chain [/v2/api-docs] from String definition [anon]
+2019-09-27 09:13:05 DEBUG [localhost-startStop-1] - Attempting to apply path [/v2/api-docs] to filter [anon] with config [null]
+2019-09-27 09:13:05 DEBUG [localhost-startStop-1] - Creating chain [/swagger-ui.html] from String definition [anon]
+2019-09-27 09:13:05 DEBUG [localhost-startStop-1] - Attempting to apply path [/swagger-ui.html] to filter [anon] with config [null]
+2019-09-27 09:13:05 DEBUG [localhost-startStop-1] - Creating chain [/webjars/**] from String definition [anon]
+2019-09-27 09:13:05 DEBUG [localhost-startStop-1] - Attempting to apply path [/webjars/**] to filter [anon] with config [null]
+2019-09-27 09:13:05 DEBUG [localhost-startStop-1] - Creating chain [/swagger-resources/**] from String definition [anon]
+2019-09-27 09:13:05 DEBUG [localhost-startStop-1] - Attempting to apply path [/swagger-resources/**] to filter [anon] with config [null]
+2019-09-27 09:13:05 DEBUG [localhost-startStop-1] - Creating chain [/rdpindex.html] from String definition [anon]
+2019-09-27 09:13:05 DEBUG [localhost-startStop-1] - Attempting to apply path [/rdpindex.html] to filter [anon] with config [null]
+2019-09-27 09:13:05 DEBUG [localhost-startStop-1] - Creating chain [/statics/**] from String definition [anon]
+2019-09-27 09:13:05 DEBUG [localhost-startStop-1] - Attempting to apply path [/statics/**] to filter [anon] with config [null]
+2019-09-27 09:13:05 DEBUG [localhost-startStop-1] - Creating chain [/login.html] from String definition [anon]
+2019-09-27 09:13:05 DEBUG [localhost-startStop-1] - Attempting to apply path [/login.html] to filter [anon] with config [null]
+2019-09-27 09:13:05 DEBUG [localhost-startStop-1] - Creating chain [/developing.html] from String definition [anon]
+2019-09-27 09:13:05 DEBUG [localhost-startStop-1] - Attempting to apply path [/developing.html] to filter [anon] with config [null]
+2019-09-27 09:13:05 DEBUG [localhost-startStop-1] - Creating chain [/sys/login] from String definition [anon]
+2019-09-27 09:13:05 DEBUG [localhost-startStop-1] - Attempting to apply path [/sys/login] to filter [anon] with config [null]
+2019-09-27 09:13:05 DEBUG [localhost-startStop-1] - Creating chain [/favicon.ico] from String definition [anon]
+2019-09-27 09:13:05 DEBUG [localhost-startStop-1] - Attempting to apply path [/favicon.ico] to filter [anon] with config [null]
+2019-09-27 09:13:05 DEBUG [localhost-startStop-1] - Creating chain [/captcha.jpg] from String definition [anon]
+2019-09-27 09:13:05 DEBUG [localhost-startStop-1] - Attempting to apply path [/captcha.jpg] to filter [anon] with config [null]
+2019-09-27 09:13:05 DEBUG [localhost-startStop-1] - Creating chain [/ex/**] from String definition [anon]
+2019-09-27 09:13:05 DEBUG [localhost-startStop-1] - Attempting to apply path [/ex/**] to filter [anon] with config [null]
+2019-09-27 09:13:05 DEBUG [localhost-startStop-1] - Creating chain [/rdppub/**] from String definition [anon]
+2019-09-27 09:13:05 DEBUG [localhost-startStop-1] - Attempting to apply path [/rdppub/**] to filter [anon] with config [null]
+2019-09-27 09:13:05 DEBUG [localhost-startStop-1] - Creating chain [/rdppage/**] from String definition [anon]
+2019-09-27 09:13:05 DEBUG [localhost-startStop-1] - Attempting to apply path [/rdppage/**] to filter [anon] with config [null]
+2019-09-27 09:13:05 DEBUG [localhost-startStop-1] - Creating chain [/mapfiles/**] from String definition [anon]
+2019-09-27 09:13:05 DEBUG [localhost-startStop-1] - Attempting to apply path [/mapfiles/**] to filter [anon] with config [null]
+2019-09-27 09:13:05 DEBUG [localhost-startStop-1] - Creating chain [/bddpfiles/**] from String definition [anon]
+2019-09-27 09:13:05 DEBUG [localhost-startStop-1] - Attempting to apply path [/bddpfiles/**] to filter [anon] with config [null]
+2019-09-27 09:13:05 DEBUG [localhost-startStop-1] - Creating chain [/bddpshow/**] from String definition [anon]
+2019-09-27 09:13:05 DEBUG [localhost-startStop-1] - Attempting to apply path [/bddpshow/**] to filter [anon] with config [null]
+2019-09-27 09:13:05 DEBUG [localhost-startStop-1] - Creating chain [/bddpConfig/**] from String definition [anon]
+2019-09-27 09:13:05 DEBUG [localhost-startStop-1] - Attempting to apply path [/bddpConfig/**] to filter [anon] with config [null]
+2019-09-27 09:13:05 DEBUG [localhost-startStop-1] - Creating chain [/material/**] from String definition [anon]
+2019-09-27 09:13:05 DEBUG [localhost-startStop-1] - Attempting to apply path [/material/**] to filter [anon] with config [null]
+2019-09-27 09:13:05 DEBUG [localhost-startStop-1] - Creating chain [/bddpDiyTag/**] from String definition [anon]
+2019-09-27 09:13:05 DEBUG [localhost-startStop-1] - Attempting to apply path [/bddpDiyTag/**] to filter [anon] with config [null]
+2019-09-27 09:13:05 DEBUG [localhost-startStop-1] - Creating chain [/bddpdemo/**] from String definition [anon]
+2019-09-27 09:13:05 DEBUG [localhost-startStop-1] - Attempting to apply path [/bddpdemo/**] to filter [anon] with config [null]
+2019-09-27 09:13:05 DEBUG [localhost-startStop-1] - Creating chain [/modules/bddp/**] from String definition [anon]
+2019-09-27 09:13:05 DEBUG [localhost-startStop-1] - Attempting to apply path [/modules/bddp/**] to filter [anon] with config [null]
+2019-09-27 09:13:05 DEBUG [localhost-startStop-1] - Creating chain [/modules/rdp/**] from String definition [anon]
+2019-09-27 09:13:05 DEBUG [localhost-startStop-1] - Attempting to apply path [/modules/rdp/**] to filter [anon] with config [null]
+2019-09-27 09:13:05 DEBUG [localhost-startStop-1] - Creating chain [/**] from String definition [authc]
+2019-09-27 09:13:05 DEBUG [localhost-startStop-1] - Attempting to apply path [/**] to filter [authc] with config [null]
+2019-09-27 09:13:05 DEBUG [localhost-startStop-1] - Found filter chain candidate filter 'requestContextFilter'
+2019-09-27 09:13:05 DEBUG [localhost-startStop-1] - Found filter chain candidate filter 'hiddenHttpMethodFilter'
+2019-09-27 09:13:05 DEBUG [localhost-startStop-1] - Found filter chain candidate filter 'httpPutFormContentFilter'
+2019-09-27 09:13:05 DEBUG [localhost-startStop-1] - Found filter chain candidate filter 'characterEncodingFilter'
+2019-09-27 09:13:09 DEBUG [main] - initialising the handler methods
+2019-09-27 09:13:09  INFO [main] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-09-27 09:13:09 DEBUG [main] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-09-27 09:13:09 DEBUG [main] - Loaded expression factory via original TCCL
+2019-09-27 09:13:09 DEBUG [main] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-09-27 09:13:09 DEBUG [main] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2019-09-27 09:13:09 DEBUG [main] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2019-09-27 09:13:09 DEBUG [main] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2019-09-27 09:13:09 DEBUG [main] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-09-27 09:13:09 DEBUG [main] - Trying to load META-INF/validation.xml via user class loader
+2019-09-27 09:13:09 DEBUG [main] - Trying to load META-INF/validation.xml via TCCL
+2019-09-27 09:13:09 DEBUG [main] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-09-27 09:13:09 DEBUG [main] - No META-INF/validation.xml found. Using annotation based configuration only.
+2019-09-27 09:13:09 DEBUG [main] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-09-27 09:13:09 DEBUG [main] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-09-27 09:13:09 DEBUG [main] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-09-27 09:13:09 DEBUG [main] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-09-27 09:13:09 DEBUG [main] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-09-27 09:13:11  INFO [main] - Context refreshed
+2019-09-27 09:13:11  INFO [main] - Found 1 custom documentation plugin(s)
+2019-09-27 09:13:11  INFO [main] - Scanning for api listing references
+2019-09-27 09:13:11  INFO [main] - Started AdminApplication in 15.364 seconds (JVM running for 18.811)
+2019-09-27 09:13:12 DEBUG [main] - Creating a new SqlSession
+2019-09-27 09:13:12 DEBUG [main] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6fe9c048] was not registered for synchronization because synchronization is not active
+2019-09-27 09:13:12 DEBUG [main] - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@52325940] will not be managed by Spring
+2019-09-27 09:13:12 DEBUG [main] - ==>  Preparing: SELECT id AS id,`name`,model,`type`,version,driver,addr,usr,`password`,icon,sts,tx_time AS txTime,up_time AS upTime,tx_op AS txOp,up_op AS upOp,readonly FROM data_source 
+2019-09-27 09:13:12 DEBUG [main] - ==> Parameters: 
+2019-09-27 09:13:12 DEBUG [main] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6fe9c048]
+2019-09-27 09:13:12 ERROR [main] - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:800)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:781)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243)
+	at io.report.AdminApplication.main(AdminApplication.java:15)
+Caused by: org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'hxum.data_source' doesn't exist
+### The error may exist in io/report/modules/ser/dao/DataSourceDao.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT  id AS id,`name`,model,`type`,version,driver,addr,usr,`password`,icon,sts,tx_time AS txTime,up_time AS upTime,tx_op AS txOp,up_op AS upOp,readonly  FROM data_source
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'hxum.data_source' doesn't exist
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'hxum.data_source' doesn't exist
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:234)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:446)
+	at com.sun.proxy.$Proxy68.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:230)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:137)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:75)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
+	at com.sun.proxy.$Proxy108.selectList(Unknown Source)
+	at com.baomidou.mybatisplus.service.impl.ServiceImpl.selectList(ServiceImpl.java:388)
+	at com.baomidou.mybatisplus.service.impl.ServiceImpl$$FastClassBySpringCGLIB$$3e2398a4.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:684)
+	at io.report.modules.ser.service.impl.DataSourceServiceImpl$$EnhancerBySpringCGLIB$$408ffd2.selectList(<generated>)
+	at com.baomidou.mybatisplus.service.impl.ServiceImpl$$FastClassBySpringCGLIB$$3e2398a4.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:684)
+	at io.report.modules.ser.service.impl.DataSourceServiceImpl$$EnhancerBySpringCGLIB$$3e7a55c.selectList(<generated>)
+	at io.report.common.config.CommandLineRunnerImpl.init(CommandLineRunnerImpl.java:40)
+	at io.report.common.config.CommandLineRunnerImpl.run(CommandLineRunnerImpl.java:33)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:797)
+	... 5 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'hxum.data_source' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:944)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3978)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3914)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2530)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2683)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2495)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1903)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1242)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3409)
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_execute(FilterEventAdapter.java:440)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3407)
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.execute(PreparedStatementProxyImpl.java:167)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:498)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:59)
+	at com.sun.proxy.$Proxy153.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:63)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:63)
+	at com.sun.proxy.$Proxy151.query(Unknown Source)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:63)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:136)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:148)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	... 23 more
+2019-09-27 09:13:12 DEBUG [main] - Destroying bean [securityManager]...
+2019-09-27 09:13:12 DEBUG [main] - Destroying bean [sessionManager]...

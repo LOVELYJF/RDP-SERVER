@@ -1,0 +1,5 @@
+支持多sql脚本 application.yml
+修改 active即可
+spring:
+  profiles:
+    active: mysql
